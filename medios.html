@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INOXSUR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+       .nav-link {
+        color: #814B26;
+        }
+        .nav-link:hover {
+            color: #3b3f4c;
+        }
+
+        .btn-custom {
+            background-color: white;
+            color: white;
+        }
+
+        .btn-custom:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+        }
+
+        .social-icons a {
+				color: rgb(255, 255, 255);
+				margin-right: 10px;
+			}
+
+        .social-icons a:hover {
+            color: #000000;
+        }
+
+        .episode-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .episode-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        .about-section {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .episodes-section {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+
+        .episode-card {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .episode-duration {
+            font-size: 0.85rem;
+            color: #6c757d;
+        }
+
+        .sorting-dropdown {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header class=" shadow-sm" style="background-color: white;">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+				<a class="navbar-brand logo" href="#">
+					<img  style="height: 50px;" src="images/logo.png" alt="">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<div class="ms-auto d-flex align-items-center"></div>
+					<ul class="navbar-nav mx-2">
+						<li class="nav-item">
+							<a class="nav-link" href="Index.html">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="servicios.html">Servicios</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="medios.html">Multimedia</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="sesiones.html">Sesiones</a>
+						</li>
+						<li class="nav-item"></li>
+							<a class="nav-link" href="experiencia.html">Experiencia</a>
+						</li>
+						<li class="nav-item"></li>
+							<a class="nav-link" href="Nosotros.html">Nosotros</a>
+						</li>
+					</ul>
+					</div>
+					<div class="ms-auto d-flex align-items-center" style="color: #000000;">
+						<span class="me-3 d-none d-lg-inline"><i class="fas fa-phone-alt me-1"></i> +971312567990</span>
+						<button class="btn btn-custom" style="background-color: #814B26; color: rgb(255, 255, 255);">Llamar</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="bg-light border" style="height: 300px; position: relative; overflow: hidden;">
+                        <img src="images/barandas.png" alt="Instalaciones de INOXSUR" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <h2 class="mb-3">Bienvenidos a INOXSUR</h2>
+                    <p>En INOXSUR ofrecemos servicios especializados en instalaciones de barandas de acero inoxidable y puertas levadizas. Convertimos tu puerta de garage en una moderna, potente y automatizada puerta levadiza.</p>
+                    <p>Descubre nuestros servicios de instalación y mantenimiento de sistemas de puertas levadizas y barandas. ¡Haz de tu espacio un lugar seguro y estético con nuestra experiencia!</p>
+                    <div class="social-icons mb-3">
+                        <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-dark me-2"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <button class="btn btn-primary me-2">Ver nuestros servicios</button>
+                    <button class="btn btn-outline-primary">Contáctanos</button>
+                </div>
+            </div>
+    
+            <div class="col-md-4 mt-4">
+                <div class="about-section">
+                    <h5>Acerca de</h5>
+                    <p>INOXSUR es tu socio ideal para la instalación y mantenimiento de barandas de acero inoxidable y puertas levadizas automatizadas. Nuestro compromiso es brindarte la mejor calidad y servicio.</p>
+                    <p><strong>Presentado por:</strong> INOXSUR</p>
+                    <p><strong>Redes sociales:</strong></p>
+                    <div class="social-icons">
+                        <a style="color: #000000;" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a style="color: #000000;" href="#"><i class="fab fa-twitter"></i></a>
+                        <a style="color: #000000;" href="#"><i class="fab fa-instagram"></i></a>
+                        <a style="color: #000000;" href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-8 mt-4">
+                <div class="episodes-section">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5>Últimos Proyectos</h5>
+                        <div class="sorting-dropdown">
+                            <select class="form-select">
+                                <option>Ordenar por</option>
+                                <option>Fecha</option>
+                                <option>Popularidad</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <div class="episode-card">
+                        <div class="d-flex">
+                            <div class="me-3">
+                                <img src="images/barandas.png" alt="Proyecto Barandas" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;">
+                            </div>
+                            <div>
+                                <p class="episode-title">Instalación de Barandas de Acero Inoxidable</p>
+                                <p class="episode-info">Fecha: 01/10/2024 | Duración: 03:30</p>
+                                <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#videoModal1">Ver Proyecto</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="episode-card">
+                        <div class="d-flex">
+                            <div class="me-3">
+                                <img src="images/index-1.jpg" alt="Proyecto Puerta Levadiza" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;">
+                            </div>
+                            <div>
+                                <p class="episode-title">Instalación de Puerta Levadiza Automática</p>
+                                <p class="episode-info">Fecha: 15/09/2024 | Duración: 05:45</p>
+                                <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#videoModal2">Ver Proyecto</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="episode-card">
+                        <div class="d-flex">
+                            <div class="me-3">
+                                <img src="images/index-1.jpg" alt="Mantenimiento Puerta Levadiza" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;">
+                            </div>
+                            <div>
+                                <p class="episode-title">Mantenimiento de Motor de Puerta Levadiza</p>
+                                <p class="episode-info">Fecha: 22/08/2024 | Duración: 04:15</p>
+                                <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#videoModal3">Ver Proyecto</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Modales para los videos de los proyectos -->
+                    <div class="modal fade" id="videoModal1" tabindex="-1" aria-labelledby="videoModalLabel1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="videoModalLabel1">Instalación de Barandas de Acero Inoxidable</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe id="videoIframe1" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModalLabel2" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="videoModalLabel2">Instalación de Puerta Levadiza Automática</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe id="videoIframe2" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="modal fade" id="videoModal3" tabindex="-1" aria-labelledby="videoModalLabel3" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="videoModalLabel3">Mantenimiento de Motor de Puerta Levadiza</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe id="videoIframe3" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    
+    
+
+    <footer class="footer" style="background-color: #814B26;">
+		<div class="container">
+			<div class="row" style="color:white">
+				<div class="col-md-3 mb-4">
+					<div class="logo mb-3">
+						<img style="height: 50px;" src="images/logo.png" alt="Logo de INOXSUR">
+					</div>
+					<p class="small" style="color: #fff;">Nos especializamos en la instalación de barandas de acero inoxidable y puertas levadizas automatizadas, ofreciendo calidad, seguridad y diseño en cada uno de nuestros proyectos.</p>
+				</div>
+				<div class="col-md-3 mb-4">
+					<h5 class="mb-3">Enlaces rápidos</h5>
+					<ul class="list-unstyled">
+						<li><a href="#" style="color: #fff;">Nuestros Servicios</a></li>
+					<li><a href="#" style="color: #fff;">Proyectos Realizados</a></li>
+					<li><a href="#" style="color: #fff;">Sobre Nosotros</a></li>
+					<li><a href="#" style="color: #fff;">Testimonios</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 mb-4">
+					<h5 class="mb-3">Información legal</h5>
+					<ul class="list-unstyled">
+						<li><a href="#" style="color: #fff;">Política de privacidad</a></li>
+						<li><a href="#" style="color: #fff;">Términos y condiciones</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 mb-4">
+					<h5 class="mb-3 text-center">Contáctanos</h5>
+					<form>
+						<div class="d-flex">
+							<input type="email" class="form-control me-2" placeholder="Ingresa tu correo">
+							<button type="submit" class="btn btn-custom" style="background-color: #fafafa; color: black;">Suscribirse</button>
+						</div>
+					</form>
+					<div class="social-icons mt-3 text-center">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="text-center mt-4">
+				<small style="color: #fff;">Copyright 2024 © INOXSUR</small>
+			</div>
+		</div>
+	</footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var videos = {
+                1: "https://www.youtube.com/embed/_UY8VaJnpok?si=EtJ4bzi_vpQowSNx",
+                2: "https://www.youtube.com/embed/_UY8VaJnpok?si=EtJ4bzi_vpQowSNx",
+                3: "https://www.youtube.com/embed/_UY8VaJnpok?si=EtJ4bzi_vpQowSNx"
+            };
+        
+            // Modal 1
+            var videoModal1 = document.getElementById('videoModal1');
+            var videoIframe1 = document.getElementById('videoIframe1');
+            videoModal1.addEventListener('show.bs.modal', function () {
+                videoIframe1.src = videos[1]; 
+            });
+            videoModal1.addEventListener('hidden.bs.modal', function () {
+                videoIframe1.src = ""; 
+            });
+        
+            // Modal 2
+            var videoModal2 = document.getElementById('videoModal2');
+            var videoIframe2 = document.getElementById('videoIframe2');
+            videoModal2.addEventListener('show.bs.modal', function () {
+                videoIframe2.src = videos[2]; 
+            });
+            videoModal2.addEventListener('hidden.bs.modal', function () {
+                videoIframe2.src = ""; 
+            });
+        
+            // Modal 3
+            var videoModal3 = document.getElementById('videoModal3');
+            var videoIframe3 = document.getElementById('videoIframe3');
+            videoModal3.addEventListener('show.bs.modal', function () {
+                videoIframe3.src = videos[3]; 
+            });
+            videoModal3.addEventListener('hidden.bs.modal', function () {
+                videoIframe3.src = ""; 
+            });
+        });
+        
+        
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INOXSUR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-link {
+				color: #814B26;
+			}
+        .nav-link:hover {
+            color: #3b3f4c;
+        }
+        .btn-custom {
+            background-color: white;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+        }
+        .social-icons a {
+				color: rgb(255, 255, 255);
+				margin-right: 10px;
+			}
+        .social-icons a:hover {
+            color: #f7941d;
+        }
+    </style>
+    <style>
+        .process-container {
+            position: relative;
+            padding-left: 50px;
+        }
+        .process-line {
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #000;
+        }
+        .process-item {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .process-content {
+            border: 1px solid #000;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .process-icon {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #000;
+            border-radius: 50%;
+            position: absolute;
+            left: -65px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #fff;
+        }
+        .cta-image {
+            width: 100%;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+	<header class=" shadow-sm" style="background-color: white;">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+				<a class="navbar-brand logo" href="#">
+					<img  style="height: 50px;" src="images/logo.png" alt="">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<div class="ms-auto d-flex align-items-center"></div>
+					<ul class="navbar-nav mx-2">
+						<li class="nav-item">
+							<a class="nav-link" href="Index.html">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="servicios.html">Servicios</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="medios.html">Multimedia</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="sesiones.html">Sesiones</a>
+						</li>
+						<li class="nav-item"></li>
+							<a class="nav-link" href="experiencia.html">Experiencia</a>
+						</li>
+						<li class="nav-item"></li>
+							<a class="nav-link" href="Nosotros.html">Nosotros</a>
+						</li>
+					</ul>
+					</div>
+					<div class="ms-auto d-flex align-items-center" style="color: #000000;">
+						<span class="me-3 d-none d-lg-inline"><i class="fas fa-phone-alt me-1"></i> +971312567990</span>
+						<button class="btn btn-custom" style="background-color: #814B26; color: rgb(255, 255, 255);">Llamar</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+    <div class="container my-5">
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <h2 class="mb-4">NUESTROS SERVICIOS</h2>
+                <p>En Puertas Levadizas y Barandas Expert, nos especializamos en ofrecer soluciones confiables y personalizadas para todo tipo de instalaciones. Ya sea que necesites una puerta levadiza moderna o barandas de alta calidad, estamos aquí para ayudarte.</p>
+                <p>Nuestro equipo de profesionales capacitados garantiza un servicio eficiente y adaptado a tus necesidades, asegurando que cada proyecto se realice con los más altos estándares de calidad y seguridad.</p>
+            </div>
+            <div class="col-md-6">
+                <div style="height: 300px; display: flex; justify-content: center; align-items: center;">
+                    <img src="images/servicios.png" alt="Servicios de instalación de puertas y barandas" class="img-fluid" style="max-height: 100%; max-width: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-door-open service-icon"></i>
+                        <h5 class="card-title">Instalación de Puertas Levadizas</h5>
+                        <p class="card-text">Instalamos puertas levadizas automáticas y manuales para garajes y locales comerciales.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-wrench service-icon"></i>
+                        <h5 class="card-title">Mantenimiento y Reparación</h5>
+                        <p class="card-text">Ofrecemos servicios de mantenimiento y reparación para asegurar la durabilidad de tus puertas y barandas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-grip-lines service-icon"></i>
+                        <h5 class="card-title">Instalación de Barandas</h5>
+                        <p class="card-text">Diseñamos e instalamos barandas resistentes y estéticas para interiores y exteriores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-cogs service-icon"></i>
+                        <h5 class="card-title">Automatización de Puertas</h5>
+                        <p class="card-text">Convierte tus puertas manuales en automáticas con nuestra tecnología avanzada de automatización.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-shield-alt service-icon"></i>
+                        <h5 class="card-title">Soluciones de Seguridad</h5>
+                        <p class="card-text">Integramos sistemas de seguridad para garantizar la protección de tu propiedad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-ruler-combined service-icon"></i>
+                        <h5 class="card-title">Diseño Personalizado</h5>
+                        <p class="card-text">Trabajamos contigo para crear soluciones de diseño únicas y funcionales.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-tools service-icon"></i>
+                        <h5 class="card-title">Servicio de Instalación Completa</h5>
+                        <p class="card-text">Desde la planificación hasta la instalación, nos encargamos de todo el proceso.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-question-circle service-icon"></i>
+                        <h5 class="card-title">Asesoría Técnica</h5>
+                        <p class="card-text">Ofrecemos asesoría profesional para que tomes las mejores decisiones en tu proyecto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <h2 class="text-center mb-5">Nuestro Proceso</h2>
+    
+        <div class="process-container">
+            <div class="process-line"></div>
+    
+            <div class="process-item">
+                <div class="process-icon"></div>
+                <div class="process-content">
+                    <h4>Consulta Inicial</h4>
+                    <p>Evaluamos tus necesidades y discutimos las mejores soluciones para tu espacio.</p>
+                </div>
+            </div>
+    
+            <div class="process-item">
+                <div class="process-icon"></div>
+                <div class="process-content">
+                    <h4>Diseño y Planificación</h4>
+                    <p>Desarrollamos un plan detallado y personalizado, asegurando que se ajuste a tu estilo y presupuesto.</p>
+                </div>
+            </div>
+    
+            <div class="process-item">
+                <div class="process-icon"></div>
+                <div class="process-content">
+                    <h4>Instalación y Seguimiento</h4>
+                    <p>Nos encargamos de la instalación y brindamos soporte continuo para garantizar la satisfacción del cliente.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row mt-5 align-items-center">
+            <div class="col-md-6">
+                <h3>¿Interesado en nuestros servicios?</h3>
+                <div class="mt-3">
+                    <button class="btn btn-primary me-2">Contáctanos</button>
+                    <span>O</span>
+                    <a href="tel:+51959959959" class="btn btn-outline-primary ms-2">+51 959-959-959</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="cta-image" style="height: 300px; display: flex; justify-content: center; align-items: center;">
+                    <img src="images/puertas.jpg" alt="Imagen de servicios de instalación" class="img-fluid" style="max-height: 100%; max-width: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+	
+    <footer class="footer" style="background-color: #814B26;">
+		<div class="container">
+			<div class="row" style="color:white">
+				<div class="col-md-3 mb-4">
+					<div class="logo mb-3">
+						<img style="height: 50px;" src="images/logo.png" alt="Logo de INOXSUR">
+					</div>
+					<p class="small" style="color: #fff;">Nos especializamos en la instalación de barandas de acero inoxidable y puertas levadizas automatizadas, ofreciendo calidad, seguridad y diseño en cada uno de nuestros proyectos.</p>
+				</div>
+				<div class="col-md-3 mb-4">
+					<h5 class="mb-3">Enlaces rápidos</h5>
+					<ul class="list-unstyled">
+						<li><a href="#" style="color: #fff;">Nuestros Servicios</a></li>
+					<li><a href="#" style="color: #fff;">Proyectos Realizados</a></li>
+					<li><a href="#" style="color: #fff;">Sobre Nosotros</a></li>
+					<li><a href="#" style="color: #fff;">Testimonios</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 mb-4">
+					<h5 class="mb-3">Información legal</h5>
+					<ul class="list-unstyled">
+						<li><a href="#" style="color: #fff;">Política de privacidad</a></li>
+						<li><a href="#" style="color: #fff;">Términos y condiciones</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 mb-4">
+					<h5 class="mb-3 text-center">Contáctanos</h5>
+					<form>
+						<div class="d-flex">
+							<input type="email" class="form-control me-2" placeholder="Ingresa tu correo">
+							<button type="submit" class="btn btn-custom" style="background-color: #fafafa; color: black;">Suscribirse</button>
+						</div>
+					</form>
+					<div class="social-icons mt-3 text-center">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="text-center mt-4">
+				<small style="color: #fff;">Copyright 2024 © INOXSUR</small>
+			</div>
+		</div>
+	</footer>
+    
+	
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
